@@ -7,3 +7,5 @@ const update = (id, data) => userModel.updateUser(id, data.name, data.email);
 const remove = (id) => userModel.deleteUser(id);
 
 module.exports = { create, findAll, findOne, update, remove };
+
+// CRUD
